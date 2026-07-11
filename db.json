@@ -1,0 +1,1139 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "phone": "09987654321",
+      "name": "سارا محمدی",
+      "email": "sara.m@example.com",
+      "email_verified_at": "2025-02-10T14:30:00.000Z",
+      "created_at": "2025-01-15T10:20:00.000Z",
+      "updated_at": "2025-06-20T18:45:00.000Z",
+      "role": "customer",
+      "wallet_balance": 145000,
+      "password": ""
+    },
+    {
+      "id": 2,
+      "phone": "09912345678",
+      "name": "علی رضایی",
+      "email": "ali.rz@example.com",
+      "email_verified_at": null,
+      "created_at": "2025-03-05T09:15:00.000Z",
+      "updated_at": "2025-07-01T11:10:00.000Z",
+      "role": "customer",
+      "wallet_balance": 32000,
+      "password": ""
+    },
+    {
+      "id": 100,
+      "phone": "09121234567",
+      "name": "ادمین اصلی",
+      "email": "admin@drhamedi.ir",
+      "email_verified_at": "2024-12-01T08:00:00.000Z",
+      "created_at": "2024-11-20T07:00:00.000Z",
+      "updated_at": "2025-07-10T14:00:00.000Z",
+      "role": "admin",
+      "wallet_balance": 0,
+      "password": ""
+    }
+  ],
+  "profiles": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "first_name": "سارا",
+      "last_name": "محمدی",
+      "phone": "09123456789",
+      "date_of_birth": "1378-04-22",
+      "gender": "female",
+      "national_code": "1234567890"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "first_name": "علی",
+      "last_name": "رضایی",
+      "phone": "09912345678",
+      "date_of_birth": "1369-11-08",
+      "gender": "male",
+      "national_code": "9876543210"
+    }
+  ],
+  "addresses": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "title": "خانه",
+      "province": "تهران",
+      "city": "تهران",
+      "address": "خیابان ولیعصر، بالاتر از پارک وی",
+      "plate": "124",
+      "residence": "8",
+      "postal_code": "1966643311",
+      "recipient_name": "سارا محمدی",
+      "recipient_phone": "09123456789",
+      "is_default": true
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "title": "محل کار",
+      "province": "تهران",
+      "city": "تهران",
+      "address": "میدان ونک، خیابان ملاصدرا",
+      "plate": "208",
+      "residence": "",
+      "postal_code": "1994654789",
+      "recipient_name": "سارا محمدی",
+      "recipient_phone": "09123456789",
+      "is_default": false
+    },
+    {
+      "id": 3,
+      "user_id": 2,
+      "title": "آدرس اصلی",
+      "province": "اصفهان",
+      "city": "اصفهان",
+      "address": "خیابان چهارباغ بالا، کوچه مسجد حکیم، پلاک ۴۵",
+      "postal_code": "8145647890",
+      "recipient_name": "علی رضایی",
+      "recipient_phone": "09912345678",
+      "is_default": true
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Whey Protein 2kg 1",
+      "slug": "whey-protein-2kg",
+      "image": "./image/product/whey.webp",
+      "sku": "WP2KG001",
+      "price": 40000,
+      "price_formatted": "40,000",
+      "discount_price": 30000,
+      "discount_price_formatted": "30,000",
+      "discount_percentage": null,
+      "short_description": "High-quality whey protein powder",
+      "long_description": "Premium whey protein isolate for muscle building...",
+      "is_active": true,
+      "is_featured": false,
+      "in_stock": false,
+      "stock_quantity": 50,
+      "weight": 2000,
+      "protein_content": "24 گرم",
+      "calories_count": "120 کیلوکالری",
+      "glutamine_content": "4 گرم",
+      "Lactose": true,
+      "Carbohydrate": false,
+      "suitable_for": "بدن ساز های حرفه ای و آماتور",
+      "unsuitable_for": "خانم های باردار و شیرده و کودکان زیر ۱۲ سال (با مشورت پزشک استفاده شود)",
+      "rating": 5,
+      "reviews_count": 100,
+      "dimensions": false,
+      "meta_title": "Whey Protein 2kg - Muscle Building Supplement",
+      "meta_description": "High-quality whey protein for muscle growth and recovery",
+      "meta_keywords": "whey protein, muscle building, supplement",
+      "created_at": "2024-01-01T00:00:00.000000Z",
+      "updated_at": "2024-01-01T00:00:00.000000Z",
+      "expire_at": "2025/01/01",
+      "Usecases": [
+        "ورزش بدن سازی (body building)",
+        "عضله سازی و حجم گیری",
+        "ترمیم و ریکاوری سریع تر بافت عضلانی",
+        "لایف استایل مناسب"
+      ],
+      "usage": "کرم آبرسان و مرطوب کننده اپتیمال هیدروسنس نئودرم با بهره بردن از مرطوب کننده‌ها و رطوبت رسان‌هایی مانند گلیسیرین، اسید هیالورونیک، کلسترول / لانوسترول استر، ویتامین E و B5، رطوبت پوست را تامین می‌کند. این کرم مرطوب کننده بسیار سبک بوده و پس از مصرف، اثر سنگینی و احساس چربی برای روی پوست ایجاد نخواهد کرد.",
+      "Storage_conditions": [
+        "دور از نور خورشید",
+        "  دور از دسترس کودکان  ",
+        " نگهداری در دمای بالای 16 درجه و زیر 45 درجه",
+        "پس از استفاده، از بسته و کیپ بودن درب محصول اطمینان حاصل کنید  "
+      ],
+      "Country": "ایران",
+      "Brand": "کاله پرو",
+      "flavors": [
+        "وانیلی",
+        "شکلاتی",
+        "توت فرنگی"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Whey Protein 2kg 1",
+      "slug": "whey-protein-2kg",
+      "image": "./image/product/whey.webp",
+      "sku": "WP2KG001",
+      "price": 50000,
+      "price_formatted": "50,000",
+      "discount_price": 45000,
+      "discount_price_formatted": "45,000",
+      "discount_percentage": 35,
+      "short_description": "High-quality whey protein powder",
+      "long_description": "Premium whey protein isolate for muscle building...",
+      "is_active": true,
+      "is_featured": true,
+      "in_stock": true,
+      "stock_quantity": 2,
+      "weight": 1000,
+      "protein_content": "24 گرم",
+      "calories_count": "120 کیلوکالری",
+      "glutamine_content": "4 گرم",
+      "Lactose": true,
+      "Carbohydrate": false,
+      "suitable_for": "بدن ساز های حرفه ای و آماتور",
+      "unsuitable_for": "خانم های باردار و شیرده و کودکان زیر ۱۲ سال (با مشورت پزشک استفاده شود)",
+      "rating": 4.5,
+      "reviews_count": 100,
+      "dimensions": false,
+      "meta_title": "Whey Protein 1kg - Muscle Building Supplement",
+      "meta_description": "High-quality whey protein for muscle growth and recovery",
+      "meta_keywords": "whey protein, muscle building, supplement",
+      "created_at": "2024-01-01T00:00:00.000000Z",
+      "updated_at": "2024-01-01T00:00:00.000000Z",
+      "expire_at": "2025/01/01",
+      "Usecases": [
+        "ورزش بدن سازی (body building)",
+        "عضله سازی و حجم گیری",
+        "ترمیم و ریکاوری سریع تر بافت عضلانی",
+        "لایف استایل مناسب"
+      ],
+      "usage": "کرم آبرسان و مرطوب کننده اپتیمال هیدروسنس نئودرم با بهره بردن از مرطوب کننده‌ها و رطوبت رسان‌هایی مانند گلیسیرین، اسید هیالورونیک، کلسترول / لانوسترول استر، ویتامین E و B5، رطوبت پوست را تامین می‌کند. این کرم مرطوب کننده بسیار سبک بوده و پس از مصرف، اثر سنگینی و احساس چربی برای روی پوست ایجاد نخواهد کرد.",
+      "Storage_conditions": [
+        "دور از نور خورشید",
+        "  دور از دسترس کودکان  ",
+        " نگهداری در دمای بالای 16 درجه و زیر 45 درجه",
+        "پس از استفاده، از بسته و کیپ بودن درب محصول اطمینان حاصل کنید  "
+      ],
+      "Country": "ایران",
+      "Brand": "کاله پرو",
+      "flavors": [
+        "وانیلی",
+        "شکلاتی",
+        "توت فرنگی"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Whey Protein 2kg 1",
+      "slug": "whey-protein-2kg",
+      "image": "./image/product/whey.webp",
+      "sku": "WP2KG001",
+      "price": 250000,
+      "price_formatted": "250,000",
+      "discount_price": 225000,
+      "discount_price_formatted": "225,000",
+      "discount_percentage": 20,
+      "short_description": "High-quality whey protein powder",
+      "long_description": "Premium whey protein isolate for muscle building...",
+      "is_active": true,
+      "is_featured": false,
+      "in_stock": true,
+      "stock_quantity": 50,
+      "weight": 2000,
+      "protein_content": "24 گرم",
+      "calories_count": "120 کیلوکالری",
+      "glutamine_content": "4 گرم",
+      "Lactose": true,
+      "Carbohydrate": false,
+      "suitable_for": "بدن ساز های حرفه ای و آماتور",
+      "unsuitable_for": "خانم های باردار و شیرده و کودکان زیر ۱۲ سال (با مشورت پزشک استفاده شود)",
+      "rating": 4.7,
+      "reviews_count": 100,
+      "dimensions": false,
+      "meta_title": "Whey Protein 2kg - Muscle Building Supplement",
+      "meta_description": "High-quality whey protein for muscle growth and recovery",
+      "meta_keywords": "whey protein, muscle building, supplement",
+      "created_at": "2024-01-01T00:00:00.000000Z",
+      "updated_at": "2024-01-01T00:00:00.000000Z",
+      "expire_at": "2025/01/01",
+      "Usecases": [
+        "ورزش بدن سازی (body building)",
+        "عضله سازی و حجم گیری",
+        "ترمیم و ریکاوری سریع تر بافت عضلانی",
+        "لایف استایل مناسب"
+      ],
+      "usage": "کرم آبرسان و مرطوب کننده اپتیمال هیدروسنس نئودرم با بهره بردن از مرطوب کننده‌ها و رطوبت رسان‌هایی مانند گلیسیرین، اسید هیالورونیک، کلسترول / لانوسترول استر، ویتامین E و B5، رطوبت پوست را تامین می‌کند. این کرم مرطوب کننده بسیار سبک بوده و پس از مصرف، اثر سنگینی و احساس چربی برای روی پوست ایجاد نخواهد کرد.",
+      "Storage_conditions": [
+        "دور از نور خورشید",
+        "  دور از دسترس کودکان  ",
+        " نگهداری در دمای بالای 16 درجه و زیر 45 درجه",
+        "پس از استفاده، از بسته و کیپ بودن درب محصول اطمینان حاصل کنید  "
+      ],
+      "Country": "ایران",
+      "Brand": "کاله پرو",
+      "flavors": [
+        "وانیلی",
+        "شکلاتی",
+        "توت فرنگی"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "پروتئین وی 500 گرمی کاله مخصوص فلان",
+      "slug": "whey-protein-2kg",
+      "image": "./image/product/whey.webp",
+      "sku": "WP2KG001",
+      "price": 300000,
+      "price_formatted": "250,000",
+      "discount_price": 225000,
+      "discount_price_formatted": "225,000",
+      "discount_percentage": 35,
+      "short_description": "High-quality whey protein powder",
+      "long_description": "Premium whey protein isolate for muscle building...",
+      "is_active": true,
+      "is_featured": true,
+      "in_stock": true,
+      "stock_quantity": 1,
+      "weight": 1000,
+      "protein_content": "24 گرم",
+      "calories_count": "120 کیلوکالری",
+      "glutamine_content": "4 گرم",
+      "Lactose": true,
+      "Carbohydrate": false,
+      "suitable_for": "بدن ساز های حرفه ای و آماتور",
+      "unsuitable_for": "خانم های باردار و شیرده و کودکان زیر ۱۲ سال (با مشورت پزشک استفاده شود)",
+      "rating": 4.1,
+      "reviews_count": 100,
+      "dimensions": false,
+      "meta_title": "Whey Protein 1kg - Muscle Building Supplement",
+      "meta_description": "High-quality whey protein for muscle growth and recovery",
+      "meta_keywords": "whey protein, muscle building, supplement",
+      "created_at": "2024-01-01T00:00:00.000000Z",
+      "updated_at": "2024-01-01T00:00:00.000000Z",
+      "expire_at": "2025/01/01",
+      "Usecases": [
+        "ورزش بدن سازی (body building)",
+        "عضله سازی و حجم گیری",
+        "ترمیم و ریکاوری سریع تر بافت عضلانی",
+        "لایف استایل مناسب"
+      ],
+      "usage": "کرم آبرسان و مرطوب کننده اپتیمال هیدروسنس نئودرم با بهره بردن از مرطوب کننده‌ها و رطوبت رسان‌هایی مانند گلیسیرین، اسید هیالورونیک، کلسترول / لانوسترول استر، ویتامین E و B5، رطوبت پوست را تامین می‌کند. این کرم مرطوب کننده بسیار سبک بوده و پس از مصرف، اثر سنگینی و احساس چربی برای روی پوست ایجاد نخواهد کرد.",
+      "Storage_conditions": [
+        "دور از نور خورشید",
+        "  دور از دسترس کودکان  ",
+        " نگهداری در دمای بالای 16 درجه و زیر 45 درجه",
+        "پس از استفاده، از بسته و کیپ بودن درب محصول اطمینان حاصل کنید  "
+      ],
+      "Country": "ایران",
+      "Brand": "کاله پرو",
+      "flavors": [
+        "وانیلی",
+        "شکلاتی",
+        "توت فرنگی"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Whey Protein 2kg 2",
+      "slug": "whey-protein-2kg",
+      "image": "./image/product/whey.webp",
+      "sku": "WP2KG001",
+      "price": 250000,
+      "price_formatted": "250,000",
+      "discount_price": 225000,
+      "discount_price_formatted": "225,000",
+      "discount_percentage": 20,
+      "short_description": "High-quality whey protein powder",
+      "long_description": "Premium whey protein isolate for muscle building...",
+      "is_active": true,
+      "is_featured": true,
+      "in_stock": true,
+      "stock_quantity": 50,
+      "weight": 2000,
+      "protein_content": "24 گرم",
+      "calories_count": "120 کیلوکالری",
+      "glutamine_content": "4 گرم",
+      "Lactose": true,
+      "Carbohydrate": false,
+      "suitable_for": "بدن ساز های حرفه ای و آماتور",
+      "unsuitable_for": "خانم های باردار و شیرده و کودکان زیر ۱۲ سال (با مشورت پزشک استفاده شود)",
+      "rating": 3.5,
+      "reviews_count": 100,
+      "dimensions": false,
+      "meta_title": "Whey Protein 2kg - Muscle Building Supplement",
+      "meta_description": "High-quality whey protein for muscle growth and recovery",
+      "meta_keywords": "whey protein, muscle building, supplement",
+      "created_at": "2024-01-01T00:00:00.000000Z",
+      "updated_at": "2024-01-01T00:00:00.000000Z",
+      "expire_at": "2025/01/01",
+      "Usecases": [
+        "ورزش بدن سازی (body building)",
+        "عضله سازی و حجم گیری",
+        "ترمیم و ریکاوری سریع تر بافت عضلانی",
+        "لایف استایل مناسب"
+      ],
+      "usage": "کرم آبرسان و مرطوب کننده اپتیمال هیدروسنس نئودرم با بهره بردن از مرطوب کننده‌ها و رطوبت رسان‌هایی مانند گلیسیرین، اسید هیالورونیک، کلسترول / لانوسترول استر، ویتامین E و B5، رطوبت پوست را تامین می‌کند. این کرم مرطوب کننده بسیار سبک بوده و پس از مصرف، اثر سنگینی و احساس چربی برای روی پوست ایجاد نخواهد کرد.",
+      "Storage_conditions": [
+        "دور از نور خورشید",
+        "  دور از دسترس کودکان  ",
+        " نگهداری در دمای بالای 16 درجه و زیر 45 درجه",
+        "پس از استفاده، از بسته و کیپ بودن درب محصول اطمینان حاصل کنید  "
+      ],
+      "Country": "ایران",
+      "Brand": "کاله پرو",
+      "flavors": [
+        "وانیلی",
+        "شکلاتی",
+        "توت فرنگی"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "پروتئین وی 500 گرمی کاله مخصوص فلان",
+      "slug": "whey-protein-2kg",
+      "image": "./image/product/whey.webp",
+      "sku": "WP2KG001",
+      "price": 300000,
+      "price_formatted": "250,000",
+      "discount_price": 225000,
+      "discount_price_formatted": "225,000",
+      "discount_percentage": 95,
+      "short_description": "High-quality whey protein powder",
+      "long_description": "Premium whey protein isolate for muscle building...",
+      "is_active": true,
+      "is_featured": true,
+      "in_stock": true,
+      "stock_quantity": 8,
+      "weight": 1000,
+      "protein_content": "24 گرم",
+      "calories_count": "120 کیلوکالری",
+      "glutamine_content": "4 گرم",
+      "Lactose": true,
+      "Carbohydrate": false,
+      "suitable_for": "بدن ساز های حرفه ای و آماتور",
+      "unsuitable_for": "خانم های باردار و شیرده و کودکان زیر ۱۲ سال (با مشورت پزشک استفاده شود)",
+      "rating": 4.1,
+      "reviews_count": 100,
+      "dimensions": false,
+      "meta_title": "Whey Protein 1kg - Muscle Building Supplement",
+      "meta_description": "High-quality whey protein for muscle growth and recovery",
+      "meta_keywords": "whey protein, muscle building, supplement",
+      "created_at": "2024-01-01T00:00:00.000000Z",
+      "updated_at": "2024-01-01T00:00:00.000000Z",
+      "expire_at": "2025/01/01",
+      "Usecases": [
+        "ورزش بدن سازی (body building)",
+        "عضله سازی و حجم گیری",
+        "ترمیم و ریکاوری سریع تر بافت عضلانی",
+        "لایف استایل مناسب"
+      ],
+      "usage": "کرم آبرسان و مرطوب کننده اپتیمال هیدروسنس نئودرم با بهره بردن از مرطوب کننده‌ها و رطوبت رسان‌هایی مانند گلیسیرین، اسید هیالورونیک، کلسترول / لانوسترول استر، ویتامین E و B5، رطوبت پوست را تامین می‌کند. این کرم مرطوب کننده بسیار سبک بوده و پس از مصرف، اثر سنگینی و احساس چربی برای روی پوست ایجاد نخواهد کرد.",
+      "Storage_conditions": [
+        "دور از نور خورشید",
+        "  دور از دسترس کودکان  ",
+        " نگهداری در دمای بالای 16 درجه و زیر 45 درجه",
+        "پس از استفاده، از بسته و کیپ بودن درب محصول اطمینان حاصل کنید  "
+      ],
+      "Country": "ایران",
+      "Brand": "کاله پرو",
+      "flavors": [
+        "وانیلی",
+        "شکلاتی",
+        "توت فرنگی"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "پروتئین وی 500 گرمی کاله مخصوص فلان",
+      "slug": "whey-protein-2kg",
+      "image": "./image/product/whey.webp",
+      "sku": "WP2KG001",
+      "price": 250000,
+      "price_formatted": "250,000",
+      "discount_price": 225000,
+      "discount_price_formatted": "225,000",
+      "discount_percentage": 50,
+      "short_description": "High-quality whey protein powder",
+      "long_description": "Premium whey protein isolate for muscle building...",
+      "is_active": true,
+      "is_featured": false,
+      "in_stock": true,
+      "stock_quantity": 50,
+      "weight": 2000,
+      "protein_content": "24 گرم",
+      "calories_count": "120 کیلوکالری",
+      "glutamine_content": "4 گرم",
+      "Lactose": true,
+      "Carbohydrate": false,
+      "suitable_for": "بدن ساز های حرفه ای و آماتور",
+      "unsuitable_for": "خانم های باردار و شیرده و کودکان زیر ۱۲ سال (با مشورت پزشک استفاده شود)",
+      "rating": 3.5,
+      "reviews_count": 100,
+      "dimensions": false,
+      "meta_title": "Whey Protein 2kg - Muscle Building Supplement",
+      "meta_description": "High-quality whey protein for muscle growth and recovery",
+      "meta_keywords": "whey protein, muscle building, supplement",
+      "created_at": "2024-01-01T00:00:00.000000Z",
+      "updated_at": "2024-01-01T00:00:00.000000Z",
+      "expire_at": "2025/01/01",
+      "Usecases": [
+        "ورزش بدن سازی (body building)",
+        "عضله سازی و حجم گیری",
+        "ترمیم و ریکاوری سریع تر بافت عضلانی",
+        "لایف استایل مناسب"
+      ],
+      "usage": "کرم آبرسان و مرطوب کننده اپتیمال هیدروسنس نئودرم با بهره بردن از مرطوب کننده‌ها و رطوبت رسان‌هایی مانند گلیسیرین، اسید هیالورونیک، کلسترول / لانوسترول استر، ویتامین E و B5، رطوبت پوست را تامین می‌کند. این کرم مرطوب کننده بسیار سبک بوده و پس از مصرف، اثر سنگینی و احساس چربی برای روی پوست ایجاد نخواهد کرد.",
+      "Storage_conditions": [
+        "دور از نور خورشید",
+        "  دور از دسترس کودکان  ",
+        " نگهداری در دمای بالای 16 درجه و زیر 45 درجه",
+        "پس از استفاده، از بسته و کیپ بودن درب محصول اطمینان حاصل کنید  "
+      ],
+      "Country": "ایران",
+      "Brand": "کاله پرو",
+      "flavors": [
+        "وانیلی",
+        "شکلاتی",
+        "توت فرنگی"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "پروتئین وی 500 گرمی کاله مخصوص فلان",
+      "slug": "whey-protein-2kg",
+      "image": "./image/product/whey.webp",
+      "sku": "WP2KG001",
+      "price": 300000,
+      "price_formatted": "250,000",
+      "discount_price": 225000,
+      "discount_price_formatted": "225,000",
+      "discount_percentage": null,
+      "short_description": "High-quality whey protein powder",
+      "long_description": "Premium whey protein isolate for muscle building...",
+      "is_active": true,
+      "is_featured": true,
+      "in_stock": true,
+      "stock_quantity": 5,
+      "weight": 1000,
+      "protein_content": "24 گرم",
+      "calories_count": "120 کیلوکالری",
+      "glutamine_content": "4 گرم",
+      "Lactose": true,
+      "Carbohydrate": false,
+      "suitable_for": "بدن ساز های حرفه ای و آماتور",
+      "unsuitable_for": "خانم های باردار و شیرده و کودکان زیر ۱۲ سال (با مشورت پزشک استفاده شود)",
+      "rating": 4.1,
+      "reviews_count": 100,
+      "dimensions": false,
+      "meta_title": "Whey Protein 1kg - Muscle Building Supplement",
+      "meta_description": "High-quality whey protein for muscle growth and recovery",
+      "meta_keywords": "whey protein, muscle building, supplement",
+      "created_at": "2024-01-01T00:00:00.000000Z",
+      "updated_at": "2024-01-01T00:00:00.000000Z",
+      "expire_at": "2025/01/01",
+      "Usecases": [
+        "ورزش بدن سازی (body building)",
+        "عضله سازی و حجم گیری",
+        "ترمیم و ریکاوری سریع تر بافت عضلانی",
+        "لایف استایل مناسب"
+      ],
+      "usage": "کرم آبرسان و مرطوب کننده اپتیمال هیدروسنس نئودرم با بهره بردن از مرطوب کننده‌ها و رطوبت رسان‌هایی مانند گلیسیرین، اسید هیالورونیک، کلسترول / لانوسترول استر، ویتامین E و B5، رطوبت پوست را تامین می‌کند. این کرم مرطوب کننده بسیار سبک بوده و پس از مصرف، اثر سنگینی و احساس چربی برای روی پوست ایجاد نخواهد کرد.",
+      "Storage_conditions": [
+        "دور از نور خورشید",
+        "  دور از دسترس کودکان  ",
+        " نگهداری در دمای بالای 16 درجه و زیر 45 درجه",
+        "پس از استفاده، از بسته و کیپ بودن درب محصول اطمینان حاصل کنید  "
+      ],
+      "Country": "ایران",
+      "Brand": "کاله پرو",
+      "flavors": [
+        "وانیلی",
+        "شکلاتی",
+        "توت فرنگی"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "پروتئین وی 500 گرمی کاله مخصوص فلان",
+      "slug": "whey-protein-2kg",
+      "image": "./image/product/whey.webp",
+      "sku": "WP2KG001",
+      "price": 300000,
+      "price_formatted": "250,000",
+      "discount_price": 225000,
+      "discount_price_formatted": "225,000",
+      "discount_percentage": 3,
+      "short_description": "High-quality whey protein powder",
+      "long_description": "Premium whey protein isolate for muscle building...",
+      "is_active": true,
+      "is_featured": true,
+      "in_stock": true,
+      "stock_quantity": 5,
+      "weight": 1000,
+      "protein_content": "24 گرم",
+      "calories_count": "120 کیلوکالری",
+      "glutamine_content": "4 گرم",
+      "Lactose": true,
+      "Carbohydrate": false,
+      "suitable_for": "بدن ساز های حرفه ای و آماتور",
+      "unsuitable_for": "خانم های باردار و شیرده و کودکان زیر ۱۲ سال (با مشورت پزشک استفاده شود)",
+      "rating": 4.1,
+      "reviews_count": 100,
+      "dimensions": false,
+      "meta_title": "Whey Protein 1kg - Muscle Building Supplement",
+      "meta_description": "High-quality whey protein for muscle growth and recovery",
+      "meta_keywords": "whey protein, muscle building, supplement",
+      "created_at": "2024-01-01T00:00:00.000000Z",
+      "updated_at": "2024-01-01T00:00:00.000000Z",
+      "expire_at": "2025/01/01",
+      "Usecases": [
+        "ورزش بدن سازی (body building)",
+        "عضله سازی و حجم گیری",
+        "ترمیم و ریکاوری سریع تر بافت عضلانی",
+        "لایف استایل مناسب"
+      ],
+      "usage": "کرم آبرسان و مرطوب کننده اپتیمال هیدروسنس نئودرم با بهره بردن از مرطوب کننده‌ها و رطوبت رسان‌هایی مانند گلیسیرین، اسید هیالورونیک، کلسترول / لانوسترول استر، ویتامین E و B5، رطوبت پوست را تامین می‌کند. این کرم مرطوب کننده بسیار سبک بوده و پس از مصرف، اثر سنگینی و احساس چربی برای روی پوست ایجاد نخواهد کرد.",
+      "Storage_conditions": [
+        "دور از نور خورشید",
+        "  دور از دسترس کودکان  ",
+        " نگهداری در دمای بالای 16 درجه و زیر 45 درجه",
+        "پس از استفاده، از بسته و کیپ بودن درب محصول اطمینان حاصل کنید  "
+      ],
+      "Country": "ایران",
+      "Brand": "کاله پرو",
+      "flavors": [
+        "وانیلی",
+        "شکلاتی",
+        "توت فرنگی"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "پروتئین وی 500 گرمی کاله مخصوص فلان",
+      "slug": "whey-protein-2kg",
+      "image": "./image/product/whey.webp",
+      "sku": "WP2KG001",
+      "price": 300000,
+      "price_formatted": "250,000",
+      "discount_price": 225000,
+      "discount_price_formatted": "225,000",
+      "discount_percentage": null,
+      "short_description": "High-quality whey protein powder",
+      "long_description": "Premium whey protein isolate for muscle building...",
+      "is_active": true,
+      "is_featured": true,
+      "in_stock": true,
+      "stock_quantity": 5,
+      "weight": 1000,
+      "protein_content": "24 گرم",
+      "calories_count": "120 کیلوکالری",
+      "glutamine_content": "4 گرم",
+      "Lactose": true,
+      "Carbohydrate": false,
+      "suitable_for": "بدن ساز های حرفه ای و آماتور",
+      "unsuitable_for": "خانم های باردار و شیرده و کودکان زیر ۱۲ سال (با مشورت پزشک استفاده شود)",
+      "rating": 4.1,
+      "reviews_count": 100,
+      "dimensions": false,
+      "meta_title": "Whey Protein 1kg - Muscle Building Supplement",
+      "meta_description": "High-quality whey protein for muscle growth and recovery",
+      "meta_keywords": "whey protein, muscle building, supplement",
+      "created_at": "2024-01-01T00:00:00.000000Z",
+      "updated_at": "2024-01-01T00:00:00.000000Z",
+      "expire_at": "2025/01/01",
+      "Usecases": [
+        "ورزش بدن سازی (body building)",
+        "عضله سازی و حجم گیری",
+        "ترمیم و ریکاوری سریع تر بافت عضلانی",
+        "لایف استایل مناسب"
+      ],
+      "usage": "کرم آبرسان و مرطوب کننده اپتیمال هیدروسنس نئودرم با بهره بردن از مرطوب کننده‌ها و رطوبت رسان‌هایی مانند گلیسیرین، اسید هیالورونیک، کلسترول / لانوسترول استر، ویتامین E و B5، رطوبت پوست را تامین می‌کند. این کرم مرطوب کننده بسیار سبک بوده و پس از مصرف، اثر سنگینی و احساس چربی برای روی پوست ایجاد نخواهد کرد.",
+      "Storage_conditions": [
+        "دور از نور خورشید",
+        "  دور از دسترس کودکان  ",
+        " نگهداری در دمای بالای 16 درجه و زیر 45 درجه",
+        "پس از استفاده، از بسته و کیپ بودن درب محصول اطمینان حاصل کنید  "
+      ],
+      "Country": "ایران",
+      "Brand": "کاله پرو",
+      "flavors": [
+        "وانیلی",
+        "شکلاتی",
+        "توت فرنگی"
+      ]
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "title": "اولین بلاگ برای تست",
+      "image": "./image/blog/blog.webp",
+      "slug": "health-benefits-of-vitamin-d",
+      "content": "Detailed article about vitamin D benefits...",
+      "excerpt": "Learn about the importance of vitamin D...",
+      "featured_image": null,
+      "published_at": "2024-01-01T00:00:00.000000Z",
+      "is_published": true,
+      "meta_title": "Vitamin D Health Benefits",
+      "meta_description": "Comprehensive guide to vitamin D benefits",
+      "author": "Dr. John Doe",
+      "created_at": "2024-01-01T00:00:00.000000Z",
+      "updated_at": "2024-01-01T00:00:00.000000Z",
+      "keywords": [
+        "مصرف دارو",
+        "پروتیین "
+      ],
+      "related_blog": [
+        {
+          "title": "بهترین زمان مصرف پروتئین چه زمانی است؟",
+          "image": "./image/blog/blog.webp",
+          "published_at": "2024-01-01T00:00:00.000000Z"
+        }
+      ],
+      "comment": []
+    },
+    {
+      "id": 1,
+      "title": "بهترین زمان مصرف پروتئین چه زمانی است؟",
+      "image": "./image/blog/blog.webp",
+      "slug": "health-benefits-of-vitamin-d",
+      "content": "Detailed article about vitamin D benefits...",
+      "excerpt": "Learn about the importance of vitamin D...",
+      "featured_image": null,
+      "published_at": "2024-01-01T00:00:00.000000Z",
+      "is_published": true,
+      "meta_title": "Vitamin D Health Benefits",
+      "meta_description": "Comprehensive guide to vitamin D benefits",
+      "author": "Dr. John Doe",
+      "created_at": "2024-01-01T00:00:00.000000Z",
+      "updated_at": "2024-01-01T00:00:00.000000Z",
+      "keywords": [
+        "مصرف دارو",
+        "پروتیین "
+      ],
+      "related_blog": [
+        {
+          "title": "بهترین زمان مصرف پروتئین چه زمانی است؟",
+          "image": "./image/blog/blog.webp",
+          "published_at": "2024-01-01T00:00:00.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "بهترین زمان مصرف پروتئین چه زمانی است؟",
+      "image": "./image/blog/blog.webp",
+      "slug": "health-benefits-of-vitamin-d",
+      "content": "Detailed article about vitamin D benefits...",
+      "excerpt": "Learn about the importance of vitamin D...",
+      "featured_image": null,
+      "published_at": "2024-01-01T00:00:00.000000Z",
+      "is_published": true,
+      "meta_title": "Vitamin D Health Benefits",
+      "meta_description": "Comprehensive guide to vitamin D benefits",
+      "author": "Dr. John Doe",
+      "created_at": "2024-01-01T00:00:00.000000Z",
+      "updated_at": "2024-01-01T00:00:00.000000Z",
+      "keywords": [
+        "مصرف دارو",
+        "پروتیین "
+      ],
+      "related_blog": [
+        {
+          "title": "بهترین زمان مصرف پروتئین چه زمانی است؟",
+          "image": "./image/blog/blog.webp",
+          "published_at": "2024-01-01T00:00:00.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "بهترین زمان مصرف پروتئین چه زمانی است؟",
+      "image": "./image/blog/blog.webp",
+      "slug": "health-benefits-of-vitamin-d",
+      "content": "Detailed article about vitamin D benefits...",
+      "excerpt": "Learn about the importance of vitamin D...",
+      "featured_image": null,
+      "published_at": "2024-01-01T00:00:00.000000Z",
+      "is_published": true,
+      "meta_title": "Vitamin D Health Benefits",
+      "meta_description": "Comprehensive guide to vitamin D benefits",
+      "author": "Dr. John Doe",
+      "created_at": "2024-01-01T00:00:00.000000Z",
+      "updated_at": "2024-01-01T00:00:00.000000Z",
+      "keywords": [],
+      "related_blog": [
+        {
+          "title": "بهترین زمان مصرف پروتئین چه زمانی است؟",
+          "image": "./image/blog/blog.webp",
+          "published_at": "2024-01-01T00:00:00.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "بهترین زمان مصرف پروتئین چه زمانی است؟",
+      "image": "./image/blog/blog.webp",
+      "slug": "health-benefits-of-vitamin-d",
+      "content": "Detailed article about vitamin D benefits...",
+      "excerpt": "Learn about the importance of vitamin D...",
+      "featured_image": null,
+      "published_at": "2024-01-01T00:00:00.000000Z",
+      "is_published": true,
+      "meta_title": "Vitamin D Health Benefits",
+      "meta_description": "Comprehensive guide to vitamin D benefits",
+      "author": "Dr. John Doe",
+      "created_at": "2024-01-01T00:00:00.000000Z",
+      "updated_at": "2024-01-01T00:00:00.000000Z",
+      "keywords": [],
+      "related_blog": [
+        {
+          "title": "بهترین زمان مصرف پروتئین چه زمانی است؟",
+          "image": "./image/blog/blog.webp",
+          "published_at": "2024-01-01T00:00:00.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "بهترین زمان مصرف پروتئین چه زمانی است؟",
+      "image": "./image/blog/blog.webp",
+      "slug": "health-benefits-of-vitamin-d",
+      "content": "Detailed article about vitamin D benefits...",
+      "excerpt": "Learn about the importance of vitamin D...",
+      "featured_image": null,
+      "published_at": "2024-01-01T00:00:00.000000Z",
+      "is_published": true,
+      "meta_title": "Vitamin D Health Benefits",
+      "meta_description": "Comprehensive guide to vitamin D benefits",
+      "author": "Dr. John Doe",
+      "created_at": "2024-01-01T00:00:00.000000Z",
+      "updated_at": "2024-01-01T00:00:00.000000Z",
+      "keywords": [],
+      "related_blog": [
+        {
+          "title": "بهترین زمان مصرف پروتئین چه زمانی است؟",
+          "image": "./image/blog/blog.webp",
+          "published_at": "2024-01-01T00:00:00.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "بهترین زمان مصرف پروتئین چه زمانی است؟",
+      "image": "./image/blog/blog.webp",
+      "slug": "health-benefits-of-vitamin-d",
+      "content": "Detailed article about vitamin D benefits...",
+      "excerpt": "Learn about the importance of vitamin D...",
+      "featured_image": null,
+      "published_at": "2024-01-01T00:00:00.000000Z",
+      "is_published": true,
+      "meta_title": "Vitamin D Health Benefits",
+      "meta_description": "Comprehensive guide to vitamin D benefits",
+      "author": "Dr. John Doe",
+      "created_at": "2024-01-01T00:00:00.000000Z",
+      "updated_at": "2024-01-01T00:00:00.000000Z",
+      "keywords": [],
+      "related_blog": [
+        {
+          "title": "بهترین زمان مصرف پروتئین چه زمانی است؟",
+          "image": "./image/blog/blog.webp",
+          "published_at": "2024-01-01T00:00:00.000000Z"
+        }
+      ]
+    }
+  ],
+  "goals": [
+    {
+      "id": 1,
+      "title": "افزایش حجم",
+      "slug": "bulking",
+      "image": "./image/goals/goal1.webp"
+    },
+    {
+      "id": 2,
+      "title": "کاهش وزن",
+      "slug": "cutting",
+      "image": "./image/goals/goal2.webp"
+    },
+    {
+      "id": 3,
+      "title": "حفظ وزن",
+      "slug": "maintenance",
+      "image": "./image/goals/goal3.webp"
+    },
+    {
+      "id": 4,
+      "title": "افزایش انرژی",
+      "slug": "energy",
+      "image": "./image/goals/goal4.webp"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "داروهای بدون نسخه",
+      "slug": "otc",
+      "parent_id": null
+    },
+    {
+      "id": 2,
+      "name": "مکمل‌های ورزشی",
+      "slug": "sports-supplements",
+      "parent_id": null
+    },
+    {
+      "id": 3,
+      "name": "ویتامین و مواد معدنی",
+      "slug": "vitamins-minerals",
+      "parent_id": null
+    },
+    {
+      "id": 4,
+      "name": "مکمل‌های زنان",
+      "slug": "women-supplements",
+      "parent_id": null
+    },
+    {
+      "id": 5,
+      "name": "امگا و اسیدهای چرب",
+      "slug": "omega-fatty-acids",
+      "parent_id": 3
+    },
+    {
+      "id": 8,
+      "name": "پروتئین و گینر",
+      "slug": "protein-gainer",
+      "parent_id": 2
+    }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "name": "یوروویتال",
+      "slug": "eurho-vital",
+      "logo": "https://example.com/eurho.png"
+    },
+    {
+      "id": 4,
+      "name": "دانا",
+      "slug": "dana",
+      "logo": null
+    },
+    {
+      "id": 7,
+      "name": "ویتابیوتیکس",
+      "slug": "vitabiotics"
+    },
+    {
+      "id": 12,
+      "name": "Optimum Nutrition",
+      "slug": "optimum-nutrition"
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "product_id": 10,
+      "user_id": 3,
+      "quantity": 1,
+      "attributes": {
+        "flavor": "vanilla",
+        "size": "1kg"
+      },
+      "variant_id": null,
+      "created_at": "2024-02-10T12:00:00.000000Z",
+      "updated_at": "2024-02-10T12:00:00.000000Z",
+      "product": {
+        "id": 10,
+        "name": "Whey Protein 1kg",
+        "slug": "whey-protein-1kg",
+        "price": 180000,
+        "price_formatted": "180,000",
+        "discount_price": 150000,
+        "discount_price_formatted": "150,000",
+        "short_description": "Premium whey protein for muscle recovery",
+        "is_active": true,
+        "is_featured": true,
+        "in_stock": true,
+        "stock_quantity": 120,
+        "created_at": "2024-02-01T00:00:00.000000Z",
+        "updated_at": "2024-02-01T00:00:00.000000Z"
+      }
+    },
+    {
+      "id": 2,
+      "product_id": 22,
+      "user_id": 5,
+      "quantity": 3,
+      "attributes": {
+        "flavor": "strawberry",
+        "size": "3kg"
+      },
+      "variant_id": null,
+      "created_at": "2024-03-05T08:30:00.000000Z",
+      "updated_at": "2024-03-05T08:30:00.000000Z",
+      "product": {
+        "id": 22,
+        "name": "Mass Gainer 3kg",
+        "slug": "mass-gainer-3kg",
+        "price": 320000,
+        "price_formatted": "320,000",
+        "discount_price": 290000,
+        "discount_price_formatted": "290,000",
+        "short_description": "High-calorie mass gainer for bulking",
+        "is_active": true,
+        "is_featured": false,
+        "in_stock": true,
+        "stock_quantity": 35,
+        "created_at": "2024-03-01T00:00:00.000000Z",
+        "updated_at": "2024-03-01T00:00:00.000000Z"
+      }
+    }
+  ],
+  "wishlist_items": [
+    {
+      "id": 201,
+      "user_id": 1,
+      "product_id": 6,
+      "created_at": "2025-06-30T18:22:00.000Z"
+    },
+    {
+      "id": 202,
+      "user_id": 2,
+      "product_id": 103,
+      "created_at": "2025-07-02T10:05:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1001,
+      "user_id": 1,
+      "status": "delivered",
+      "total_amount": 1180000,
+      "discount_amount": 135000,
+      "shipping_cost": 0,
+      "payment_method": "zarinpal",
+      "payment_status": "paid",
+      "address_id": 1,
+      "tracking_code": "IRZ123987456",
+      "created_at": "2025-06-15T13:20:00.000Z",
+      "updated_at": "2025-06-18T16:45:00.000Z"
+    },
+    {
+      "id": 1002,
+      "user_id": 1,
+      "status": "processing",
+      "total_amount": 980000,
+      "discount_amount": 0,
+      "shipping_cost": 45000,
+      "payment_method": "wallet",
+      "payment_status": "paid",
+      "address_id": 2,
+      "tracking_code": null,
+      "created_at": "2025-07-07T17:10:00.000Z"
+    }
+  ],
+  "order_items": [
+    {
+      "id": 2001,
+      "order_id": 1001,
+      "product_id": 3,
+      "quantity": 1,
+      "price_at_purchase": 980000,
+      "discount_price_at_purchase": 980000
+    },
+    {
+      "id": 2002,
+      "order_id": 1001,
+      "product_id": 10,
+      "quantity": 4,
+      "price_at_purchase": 85000,
+      "discount_price_at_purchase": 85000
+    }
+  ],
+  "shipping_zones": [
+    {
+      "id": 1,
+      "name": "تهران و البرز",
+      "provinces": [
+        "تهران",
+        "البرز"
+      ],
+      "cities": [
+        "تهران",
+        "کرج",
+        "فردیس"
+      ],
+      "is_active": true
+    },
+    {
+      "id": 2,
+      "name": "شهرهای بزرگ",
+      "provinces": [
+        "اصفهان",
+        "فارس",
+        "خراسان رضوی",
+        "آذربایجان شرقی"
+      ],
+      "is_active": true
+    },
+    {
+      "id": 3,
+      "name": "سایر شهرها",
+      "provinces": [],
+      "is_active": true
+    }
+  ],
+  "shipping_rates": [
+    {
+      "id": 1,
+      "zone_id": 1,
+      "name": "پیک موتوری – تهران",
+      "method": "same_day",
+      "base_cost": 55000,
+      "cost_per_kg": 8000,
+      "free_shipping_threshold": 2000000,
+      "estimated_days_min": 0,
+      "estimated_days_max": 1,
+      "is_active": true
+    },
+    {
+      "id": 2,
+      "zone_id": 2,
+      "name": "پست پیشتاز",
+      "method": "express",
+      "base_cost": 65000,
+      "cost_per_kg": 12000,
+      "free_shipping_threshold": 3000000,
+      "estimated_days_min": 1,
+      "estimated_days_max": 3,
+      "is_active": true
+    }
+  ],
+  "settings": {
+    "app_name": "دکتر حامدی فارما",
+    "min_order_for_free_shipping": 1500000,
+    "default_shipping_cost": 45000,
+    "contact_phone": "021-88776655",
+    "contact_whatsapp": "09909909909",
+    "support_email": "support@drhamedi.ir",
+    "working_hours": "شنبه تا پنجشنبه ۹ صبح تا ۱۰ شب",
+    "return_policy_days": 7,
+    "min_wallet_deposit": 20000
+  },
+  "coupons": [
+    {
+      "id": 1,
+      "code": "SUMMER25",
+      "type": "percent",
+      "value": 25,
+      "min_amount": 500000,
+      "max_discount": 300000,
+      "Usecases_limit": 1000,
+      "used_count": 347,
+      "expires_at": "2025-08-31T23:59:59.000Z",
+      "is_active": true
+    },
+    {
+      "id": 2,
+      "code": "FIRSTBUY100",
+      "type": "fixed",
+      "value": 100000,
+      "min_amount": 800000,
+      "Usecases_limit_per_user": 1,
+      "used_count": 89,
+      "expires_at": "2025-12-31T23:59:59.000Z"
+    }
+  ]
+}
