@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "server": "json-server  --watch ./fake_api/db.json --routes ./fake_api/routes.json --port 8000"
+    "server": "json-server  --watch ./fake_api/db.json --routes routes.json --port 8000"
   },
   "dependencies": {
     "axios": "^1.13.2",
